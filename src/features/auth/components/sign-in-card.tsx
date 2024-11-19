@@ -9,7 +9,7 @@ import { z } from "zod";
 
 import { useLogin } from "../api/use-login";
 import { loginSchema } from "../schemas";
-import { LoadingButton } from "@/components/loading-button";
+import { LoadingButton } from "@/components/buttons/loading-button";
 import { PasswordInput } from "@/components/password";
 import { Button } from "@/components/ui/button";
 import {

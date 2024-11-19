@@ -6,7 +6,7 @@ import { z } from "zod";
 
 import { useRegister } from "../api/use-register";
 import { registerSchema } from "../schemas";
-import { LoadingButton } from "@/components/loading-button";
+import { LoadingButton } from "@/components/buttons/loading-button";
 import { PasswordInput } from "@/components/password";
 import {
   Card,

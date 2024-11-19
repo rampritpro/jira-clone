@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-import QueryProvider from "@/components/query-provider";
+import QueryProvider from "@/components/providers/query-provider";
 
 export const metadata: Metadata = {
   title: "Jira Clone App",
